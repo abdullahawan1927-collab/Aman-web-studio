@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dream Homes</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:#f4f4f4;color:#333;}
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#0f172a;
+color:#fff;
+position:sticky;
+top:0;
+}
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+nav a{
+color:#fff;
+text-decoration:none;
+}
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("https://images.unsplash.com/photo-1568605114967-8130f3a36994") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+.hero h1{
+font-size:55px;
+}
+.hero p{
+margin:20px 0;
+font-size:20px;
+}
+.btn{
+background:#2563eb;
+padding:14px 30px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+display:inline-block;
+}
+section{
+padding:70px 8%;
+}
+.title{
+text-align:center;
+font-size:36px;
+margin-bottom:40px;
+}
+.cards{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+.card{
+background:white;
+width:300px;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+.card h3,.card p{
+padding:10px 15px;
+}
+.price{
+color:#2563eb;
+font-size:24px;
+font-weight:bold;
+}
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+text-align:center;
+}
+.feature{
+background:white;
+padding:25px;
+width:220px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>🏠 Dream Homes</h2>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Properties</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<div>
+<h1>Find Your Dream Home</h1>
+<p>Luxury homes at the best prices.</p>
+<a href="#" class="btn">Browse Homes</a>
+</div>
+</div>
+
+<section>
+<h2 class="title">Featured Properties</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be">
+<h3>Modern Villa</h3>
+<p class="price">$450,000</p>
+<p>4 Bed • 3 Bath • Garage</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6">
+<h3>Luxury Mansion</h3>
+<p class="price">$980,000</p>
+<p>6 Bed • Pool • Garden</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+<h3>Family House</h3>
+<p class="price">$320,000</p>
+<p>3 Bed • 2 Bath</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2 class="title">Why Choose Us?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🏡 500+ Homes</h3>
+<p>Large collection of properties.</p>
+</div>
+
+<div class="feature">
+<h3>⭐ Trusted Agents</h3>
+<p>Professional real estate experts.</p>
+</div>
+
+<div class="feature">
+<h3>💰 Best Prices</h3>
+<p>Affordable deals for everyone.</p>
+</div>
+
+<div class="feature">
+<h3>📞 24/7 Support</h3>
+<p>Always here to help you.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Dream Homes | Call: +1 234 567 890</p>
+</footer>
+
+</body>
+</html>
